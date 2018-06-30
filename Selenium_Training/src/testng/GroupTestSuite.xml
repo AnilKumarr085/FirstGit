@@ -1,0 +1,27 @@
+<suite name="GroupTest">
+	<test name="regressionFirst">
+		<groups>
+			<run>
+				<include name="regression"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="testng.GroupOne" />
+			<class name="testng.GroupTwo" />
+		</classes>
+	</test>
+
+	<test name="funcionalFirst">
+		<groups>
+			<run>
+				<include name="functional"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="testng.GroupTwo" />
+			<class name="testng.GroupOne" />
+
+		</classes>
+
+	</test>
+</suite>

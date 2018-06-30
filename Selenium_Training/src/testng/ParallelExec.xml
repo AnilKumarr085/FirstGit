@@ -1,0 +1,12 @@
+<suite name="parallel execution" parallel="tests">
+	<test name="parallel1">
+		<classes>
+			<class name="testng.ParallelExec" />
+		</classes>
+	</test>
+	<test name="parallel2">
+		<classes>
+			<class name="testng.ParallelExec" />
+		</classes>
+	</test>
+</suite>

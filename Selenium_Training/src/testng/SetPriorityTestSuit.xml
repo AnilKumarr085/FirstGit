@@ -1,0 +1,8 @@
+<suite name="SetPriorityTestCases">
+	<test name="SetPriSuitOne">
+		<classes>
+			<class name="testng.PrioritySecondClass" />
+			<class name="testng.PriorityFirstClass" />
+		</classes>
+	</test>
+</suite>

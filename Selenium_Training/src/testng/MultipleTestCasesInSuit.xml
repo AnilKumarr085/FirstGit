@@ -1,0 +1,8 @@
+<suite name="TestCases">
+	<test name="SuitOne">
+		<classes>
+			<class name="testng.TestNgFirst" />
+			<class name="testng.TestNGSecond" />
+		</classes>
+	</test>
+</suite>
